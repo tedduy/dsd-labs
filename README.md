@@ -4,6 +4,23 @@ This repository contains lab exercises and project components for the **Digital 
 
 ---
 
+## 📄 Lab Reports (PDF)
+
+All lab handouts and instructions are available in the following Google Drive folder:
+
+🔗 [View Lab Documents](https://drive.google.com/drive/u/0/folders/1FRRgC0Tlp77hkjLiys7ZN0PdatpyIWiU)
+
+These include:
+- Lab1: Basic Combinational Logic Circuits
+- Lab2: More Combinational and Sequential Logic
+- Lab3: Sequential Logic Circuits
+- Lab4: Basic Circuits using VHDL
+- Lab5: Building Blocks of Single-Cycle Processor
+- Lab6: 16-bit Single-Cycle Processor Architecture
+
+---
+
+
 ## 📁 Directory Structure
 
 Lab1/
