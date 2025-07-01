@@ -63,6 +63,9 @@
 *.mem
 *.dat
 *.bin
+*.docx
+*.pdf
+
 
 # === Temp / backup files ===
 *~
