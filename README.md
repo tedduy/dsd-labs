@@ -7,21 +7,29 @@ This repository contains lab exercises and project components for the **Digital 
 ## 📁 Directory Structure
 
 Lab1/
-Ex1/ to Ex7/ – Basic combinational and sequential circuits (Part 1)
+  Ex1/ to Ex7/   – 🔧 Basic combinational and sequential circuits (Part 1)
+
 Lab2/
-Ex1/ to Ex8/ – Basic combinational and sequential circuits (Part 2)
+  Ex1/ to Ex8/   – 🔧 Basic combinational and sequential circuits (Part 2)
+
 Lab3/
-Ex1/ to Ex11/ – Sequantial Logic Circuit
+  Ex1/ to Ex11/  – 🔁 Sequential logic circuits (Flip-Flops, Registers, Counters, etc.)
+
 Lab4/
-Ex1/ to Ex10/ – Basic combinational and sequential circuits using VHDL
+  Ex1/ to Ex10/  – 💡 Combinational & sequential circuits using VHDL (Behavioral, Dataflow, Gate-level)
+
 Lab5/
-Ex1/ to Ex10/ – Basic building block of single cycle processor
+  Ex1/ to Ex10/  – 🧱 Fundamental building blocks of a single-cycle processor 
+                  (ALU, PC, Register File, Instruction/Data Memory, etc.)
+
 Lab6/
-Ex1/ to Ex11/ – 16-bit single cycle processor architecture
+  Ex1/ to Ex11/  – 🖥️ Complete 16-bit single-cycle processor architecture 
+                  (including datapath integration and instruction execution)
 
 TruongBuuDuy_ITITIU21188_DSD_Project/
-├── 16bit_Single_Cycle_Processor/
-└── Components/
+├── 16bit_Single_Cycle_Processor/   – 🧠 Top-level RTL implementation of processor
+└── Components/                     – 🧩 Modular components: ALU, Register File, etc.
+
 
 ## 🛠️ Tools Used
 
