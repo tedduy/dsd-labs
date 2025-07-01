@@ -1,0 +1,32 @@
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x01d30d82: RESR_TMW + 0x20d82 (??1TMW_WND@@UAE@XZ + 0x832)
+	0x6ffcba48: mfc90 + 0x5ba48
+	0x6ffca63c: mfc90 + 0x5a63c
+	0x6ffca8c8: mfc90 + 0x5a8c8
+	0x6ffc85b2: mfc90 + 0x585b2
+	0x75bd32d2: USER32 + 0x332d2 (Ordinal2713 + 0x6b2)
+	0x75bc40c5: USER32 + 0x240c5 (CallWindowProcW + 0x715)
+	0x75bc2984: USER32 + 0x22984 (DispatchMessageW + 0x4c4)
+	0x75c37b1f: USER32 + 0x97b1f (DispatchMessageA + 0xf)
+	0x7000a866: mfc90 + 0x9a866
+	0x01171968: ccl_thr + 0x1968 (thr_thread_var_destroy + 0x28)
+	0x6ffd71e7: mfc90 + 0x671e7
+	0x0044f42e: quartus + 0x4f42e (Pjm_Uninit + 0x401ee)
+	0x76a67ba8: KERNEL32 + 0x17ba8 (BaseThreadInitThunk + 0x18)
+	0x77b4c0ca: ntdll + 0x6c0ca (RtlInitializeExceptionChain + 0x6a)
+	0x77b4c04e: ntdll + 0x6c04e (RtlClearBits + 0xbe)
+	0xffffffffffffffff:
+	</callstack>
+	<error>Current editor: STED, RPW, STED</error>
+	<date>Wed Nov 27 22:06:25 2024</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>Access Violation at 0X01D30D82
+Current editor: STED, RPW, STED
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+

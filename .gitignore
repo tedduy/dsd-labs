@@ -1,0 +1,81 @@
+# === Quartus build directories ===
+**/db/
+**/incremental_db/
+**/incremental_db/compiled_partitions/
+
+# === Simulation output (ModelSim/Questa) ===
+**/simulation/
+**/simulation/modelsim/
+**/simulation/modelsim/rtl_work/
+**/simulation/modelsim/rtl_work/_temp/
+
+# === General Quartus build files ===
+*.rpt
+*.summary
+*.smsg
+*.qws
+*.chg
+*.bak
+*.qdf
+*.qdz
+*.cmp.rdb
+*.sdcinfo
+*.jdi
+*.pin
+*.tan
+*.ppf
+*.vho
+*.vqm
+*.hif
+*.ddb
+*.sta.rdb
+*.html
+*.htm
+*.csv
+*.log
+*.pof
+*.sof
+*.jic
+*.jam
+*.ekp
+*.ekb
+*.srec
+*.hex
+*.mif
+*.svf
+*.ttf
+*.cdf
+*.done
+*.pdb
+*.dpf
+*.jbc
+*.sld
+*.fsf
+*.rpd
+*.nco
+
+# === Simulation wave, dump, init ===
+*.wlf
+*.vcd
+*.do
+*.ini
+*.key
+*.mem
+*.dat
+*.bin
+
+# === Temp / backup files ===
+*~
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+
+# === IDE/Tooling ===
+.vscode/
+*.code-workspace
+
+# === OS-generated ===
+.DS_Store
+Thumbs.db

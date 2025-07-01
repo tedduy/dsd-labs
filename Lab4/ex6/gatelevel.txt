@@ -1,0 +1,74 @@
+architecture structural of lab4_ex6 is
+	component dec24 
+		port(en: in std_logic;
+			 sel: in std_logic_vector(1 downto 0);
+			 d: out std_logic_vector(3 downto 0));
+	end component;
+
+	begin
+		LEDR <= SW;
+		DUT: dec24 port map(SW(2),SW(1 downto 0),LEDG(7 downto 4));
+	end structural;
+
+library ieee;
+use ieee.std_logic_1164.all;
+entity dec24 is
+	port(en: in std_logic;
+		 sel: in std_logic_vector(1 downto 0);
+		 d: out std_logic_vector(3 downto 0)); 
+end dec24;
+
+
+architecture structural of dec24 is
+	signal n_s: std_logic_vector(1 downto 0);
+	signal n_en: std_logic;
+	component not_gate
+		port(a: in std_logic;
+			 y: out std_logic);
+	end component;
+	
+	component nand_gate
+    port(a: in std_logic;
+         b: in std_logic; 
+         c: in std_logic;
+         y: out std_logic);
+end component;
+	
+	begin
+	g1: not_gate port map(a=>sel(0), y=>n_s(0));
+	g2: not_gate port map(a=>sel(1), y=>n_s(1));
+	g3: not_gate port map(a=>en, y=>n_en);
+	
+	g4: nand_gate port map(a=>n_s(1), b=>n_s(0), c=>n_en, y=>d(3));
+	g5: nand_gate port map(a=>n_s(1), b=>sel(0), c=>n_en, y=>d(2));
+	g6: nand_gate port map(a=>sel(1), b=>n_s(0), c=>n_en, y=>d(1));
+	g7: nand_gate port map(a=>sel(1), b=>sel(0), c=>n_en, y=>d(0));
+	end structural;
+	
+library ieee;
+use ieee.std_logic_1164.all;
+entity nand_gate is
+port(	a: in std_logic;
+	    b: in std_logic;
+	    c: in std_logic;
+	    y: out std_logic
+);
+end nand_gate;
+  
+architecture dataflow of nand_gate is
+begin
+    y <= not(a and b and c);
+end dataflow;
+
+library ieee;
+use ieee.std_logic_1164.all;
+entity not_gate is
+port(	a: in std_logic;
+	   y: out std_logic
+);
+end not_gate;  
+
+architecture dataflow of not_gate is
+begin
+    y <= not a;
+end dataflow;

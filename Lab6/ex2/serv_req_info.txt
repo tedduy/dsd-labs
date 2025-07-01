@@ -1,0 +1,26 @@
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x05a69756: SYNTH_OPT + 0x99756 (?opt_sea_of_mux@@YIXPAVCDB_SGATE_NETLIST@@PAVCMP_FACADE@@@Z + 0x295d6)
+	0x05a694de: SYNTH_OPT + 0x994de (?opt_sea_of_mux@@YIXPAVCDB_SGATE_NETLIST@@PAVCMP_FACADE@@@Z + 0x2935e)
+	0x05a6915d: SYNTH_OPT + 0x9915d (?opt_sea_of_mux@@YIXPAVCDB_SGATE_NETLIST@@PAVCMP_FACADE@@@Z + 0x28fdd)
+	0x05af3352: SYNTH_OPT + 0x123352 (??4SMP_ROOT@@QAEAAV0@ABV0@@Z + 0x2512)
+	0x05af57e0: SYNTH_OPT + 0x1257e0 (??4SMP_ROOT@@QAEAAV0@ABV0@@Z + 0x49a0)
+	0x0344579f: DB_HDB + 0x1579f (?find_single_option@HDB_OPTION_TARGET@@UBIPAVHDB_OPTION@@W4ACF_VARIABLE_TYPE_ENUM@@@Z + 0xcf)
+	0x05af2e58: SYNTH_OPT + 0x122e58 (??4SMP_ROOT@@QAEAAV0@ABV0@@Z + 0x2018)
+	0x017ca128: ccl_mem + 0xa128 (?mem_realloc_wrapper@@YIPAXPAXIPAVMEM_TRACKER_THUNK@@PBD@Z + 0x188)
+	0x017c1cac: ccl_mem + 0x1cac (?mem_delete_wrapper@@YIXPAXPAPBD@Z + 0x2c)
+	0x05af5ea0: SYNTH_OPT + 0x125ea0 (??4SMP_ROOT@@QAEAAV0@ABV0@@Z + 0x5060)
+	0x059d315d: SYNTH_OPT + 0x315d (?process_sgate_netlist@RTL_ROOT@@QAI_NPAVCMP_FACADE@@PAVCDB_SGATE_HIERARCHY@@PAVBASEX_ELABORATE_INFO@@W4RTL_PASS_ENUM@@@Z + 0x42d)
+	0x03ed8475: synth_sgn + 0xe8475 (??4SGN_HSSI_CONVERT@@QAEAAV0@ABV0@@Z + 0x52c15)
+	</callstack>
+	<error>Access Violation at 0X05A69756</error>
+	<date>Sat Dec 21 21:30:53 2024</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>Access Violation at 0X05A69756
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+
