@@ -71,3 +71,23 @@ TruongBuuDuy_ITITIU21188_DSD_Project/
 ## 📜 License
 
 This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
+
+---
+
+## ⬇️ Download This Repository
+
+To download all files in this repository as a ZIP file:
+
+1. Click the green **`Code`** button near the top-right.
+2. Select **`Download ZIP`**.
+3. Extract the file to view all lab folders and components.
+
+📁 The ZIP file will include:
+- Lab1 to Lab6: Verilog/VHDL designs, simulations
+- `TruongBuuDuy_ITITIU21188_DSD_Project/`: Final project (16-bit processor)
+
+Alternatively, you can clone the repo using Git:
+
+```bash
+git clone https://github.com/tedduy/dsd-labs.git
+
