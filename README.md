@@ -1,6 +1,6 @@
 # Digital System Design Labs – Truong Buu Duy
 
-This repository contains lab exercises and project components for the **Digital System Design (DSD)** course, implemented using **Verilog/SystemVerilog** and synthesized using **Intel Quartus**. Functional simulations were performed with **ModelSim/QuestaSim**.
+This repository contains lab exercises and project components for the **Digital System Design (DSD)** course, implemented using **Verilog/VHDL** and synthesized using **Intel Quartus**. Functional simulations were performed with **ModelSim**.
 
 ---
 
