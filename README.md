@@ -1,93 +1,62 @@
-# Digital System Design Labs – Truong Buu Duy
+# Digital System Design Labs
 
-This repository contains lab exercises and project components for the **Digital System Design (DSD)** course, implemented using **Verilog/VHDL** and synthesized using **Intel Quartus**. Functional simulations were performed with **ModelSim**.
+This repository contains lab exercises and the final project completed by **Truong Buu Duy** for the **Digital System Design (DSD)** course at HCMIU.
 
----
+The circuits were implemented in Verilog/VHDL, synthesized with Intel Quartus II, and simulated using ModelSim.
 
-## 📄 Lab Reports (PDF)
+## Lab Contents
 
-All lab handouts and instructions are available in the following Google Drive folder:
+| Directory | Description |
+|-----------|-------------|
+| `Lab1/` | Basic combinational logic circuits |
+| `Lab2/` | Combinational and sequential logic circuits |
+| `Lab3/` | Flip-flops, registers, counters, and other sequential circuits |
+| `Lab4/` | Combinational and sequential circuits using VHDL |
+| `Lab5/` | Components of a single-cycle processor |
+| `Lab6/` | Complete 16-bit single-cycle processor |
+| `TruongBuuDuy_ITITIU21188_DSD_Project/` | Final processor project and reusable components |
 
-🔗 [View Lab Documents](https://drive.google.com/drive/u/0/folders/1FRRgC0Tlp77hkjLiys7ZN0PdatpyIWiU)
+Lab handouts and instructions are available on [Google Drive](https://drive.google.com/drive/u/0/folders/1FRRgC0Tlp77hkjLiys7ZN0PdatpyIWiU).
 
-These include:
-- Lab1: Basic Combinational Logic Circuits
-- Lab2: More Combinational and Sequential Logic
-- Lab3: Sequential Logic Circuits
-- Lab4: Basic Circuits using VHDL
-- Lab5: Building Blocks of Single-Cycle Processor
-- Lab6: 16-bit Single-Cycle Processor Architecture
+## Project Structure
 
----
+```text
+.
+├── Lab1/       # Exercises 1–7
+├── Lab2/       # Exercises 1–8
+├── Lab3/       # Exercises 1–11
+├── Lab4/       # Exercises 1–10
+├── Lab5/       # Exercises 1–10
+├── Lab6/       # Exercises 1–11
+└── TruongBuuDuy_ITITIU21188_DSD_Project/
+    ├── 16bit_Single_Cycle_Processor/
+    └── Components/
+```
 
+Each exercise may include source code, testbenches, timing constraints, Quartus project files, and block diagrams.
 
-## 📁 Directory Structure
+## Tools
 
-Lab1/
-  Ex1/ to Ex7/   – 🔧 Basic combinational and sequential circuits (Part 1)
+- Verilog and VHDL
+- Intel Quartus II 9.0
+- ModelSim
+- Intel Cyclone II FPGA
+- DE2 development board
 
-Lab2/
-  Ex1/ to Ex8/   – 🔧 Basic combinational and sequential circuits (Part 2)
+## Installation
 
-Lab3/
-  Ex1/ to Ex11/  – 🔁 Sequential logic circuits (Flip-Flops, Registers, Counters, etc.)
-
-Lab4/
-  Ex1/ to Ex10/  – 💡 Combinational & sequential circuits using VHDL (Behavioral, Dataflow, Gate-level)
-
-Lab5/
-  Ex1/ to Ex10/  – 🧱 Fundamental building blocks of a single-cycle processor 
-                  (ALU, PC, Register File, Instruction/Data Memory, etc.)
-
-Lab6/
-  Ex1/ to Ex11/  – 🖥️ Complete 16-bit single-cycle processor architecture 
-                  (including datapath integration and instruction execution)
-
-TruongBuuDuy_ITITIU21188_DSD_Project/
-├── 16bit_Single_Cycle_Processor/   – 🧠 Top-level RTL implementation of processor
-└── Components/                     – 🧩 Modular components: ALU, Register File, etc.
-
-
-## 🛠️ Tools Used
-
-- **Quartus II 9.0** (design, synthesis)
-- **ModelSim ** (simulation)
-- **Verilog/VHDL** (design language)
-- **FPGA target**: Intel Cyclone II (DE2 board)
-
----
-
-## 📌 Notes
-
-- All synthesis-related output folders (e.g., `db/`, `incremental_db/`, `simulation/rtl_work/`) are ignored via `.gitignore`.
-- Each exercise includes at least:  
-  - Source code (`.v` / `.sv`)  
-  - Constraints (`.sdc`)  
-  - Testbenches (`*_tb.v`)  
-  - Block diagram (where applicable)
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
-
----
-
-## ⬇️ Download This Repository
-
-To download all files in this repository as a ZIP file:
-
-1. Click the green **`Code`** button near the top-right.
-2. Select **`Download ZIP`**.
-3. Extract the file to view all lab folders and components.
-
-📁 The ZIP file will include:
-- Lab1 to Lab6: Verilog/VHDL designs, simulations
-- `TruongBuuDuy_ITITIU21188_DSD_Project/`: Final project (16-bit processor)
-
-Alternatively, you can clone the repo using Git:
+Clone the repository:
 
 ```bash
 git clone https://github.com/tedduy/dsd-labs.git
+cd dsd-labs
+```
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Author
+
+**Truong Buu Duy**  
+Student ID: **ITITIU21188**
